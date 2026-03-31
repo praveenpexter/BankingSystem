@@ -1,18 +1,106 @@
-## Getting Started
+# 🏦 Banking Account Management System (Java OOP)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Project Overview
 
-## Folder Structure
+This project is a **console-based banking system** developed using **Java and Object-Oriented Programming (OOP)** concepts.
+It simulates real-world banking operations like account creation, deposits, withdrawals, and transaction tracking.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🚀 Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* ✅ Create Bank Account (Savings / Current)
+* 💰 Deposit Money
+* 💸 Withdraw Money
+* 📊 Check Balance
+* 🔄 Transaction History
+* 🧠 OOP Concepts Used (Inheritance, Abstraction, Polymorphism, Encapsulation)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🏗️ Tech Stack
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* **Language:** Java
+* **Concepts:** OOP
+* **IDE:** VS Code / IntelliJ
+
+---
+
+## 📂 Project Structure
+
+```
+BankingSystem/
+│── src/
+│   ├── Account.java
+│   ├── SavingsAccount.java
+│   ├── CurrentAccount.java
+│   ├── Transaction.java
+│   ├── Bank.java
+│   └── Main.java
+│
+│── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+
+```
+git clone https://github.com/praveenpexter/BankingSystem.git
+```
+
+2. Compile:
+
+```
+javac src/*.java
+```
+
+3. Run:
+
+```
+java src/Main
+```
+
+---
+
+## 🧠 OOP Concepts Explained
+
+| Concept       | Implementation                                 |
+| ------------- | ---------------------------------------------- |
+| Encapsulation | Private variables with getters/setters         |
+| Inheritance   | SavingsAccount & CurrentAccount extend Account |
+| Polymorphism  | Method overriding                              |
+| Abstraction   | Base class (Account)                           |
+
+---
+
+## 📸 Sample Output
+
+```
+1. Create Account
+2. Deposit
+3. Withdraw
+4. Check Balance
+5. Exit
+Enter your choice:
+```
+
+---
+
+## 👨‍💻 Author
+
+**Praveen S**
+
+---
+
+## ⭐ Future Improvements
+
+* Add GUI (JavaFX / Swing)
+* Connect to Database (MySQL)
+* Add User Authentication
+
+---
+
+⭐ If you like this project, give it a star!
